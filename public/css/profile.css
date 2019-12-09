@@ -1,0 +1,86 @@
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.glyphicon {
+    margin-right: 5px;
+}
+
+.rating .glyphicon {
+    font-size: 20px;
+}
+
+.rating .glyphicon-star {
+    color: #22A7F0;
+}
+
+.progress-bar {
+    text-align: left;
+}
+
+.progress {
+    margin-bottom: 7px;
+}
+
+.statistic {
+    margin-top: 15px;
+}
+
+.statistic .glyphicon {
+    color: #22A7F0;
+}
+
+.rating-desc .col-md-3 {
+    padding-right: 0px;
+}
+
+.sr-only {
+    margin-left: 5px;
+    overflow: visible;
+    clip: auto;
+}
+
+.row .rating-desc > [class*=col-] {
+    margin-bottom: 0px;
+}
+
+.col-xs-12 .rating_progress {
+    margin-bottom: 0px;
+}
+
+.card > .row > [class*=col-] {
+    margin-bottom: 0px;
+}
+
+.card .well {
+    margin-bottom: 0px;
+}
+
+.well > .row > [class*=col-] {
+    margin-bottom: 0px;
+}
+
+.card-header .voyager-search {
+    font-size: x-large;
+    vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+    .card-header .form-control {
+        width: 94%;
+    }
+}
+
+.card-header h4 {
+    margin-left: 10px;
+}
+
+.card .card-body {
+    padding: 5px;
+}
+
+.pagination .post {
+    display: initial;
+}

@@ -1,0 +1,116 @@
+.container{
+    width:100%;
+}
+/* Float four columns side by side */
+/*.card-columns {*/
+/*    column-count: 3;*/
+/*}*/
+.card-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+/*.card-columns {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*        justify-content: space-between;*/
+
+/*}*/
+
+/*.card{*/
+/*    display: inline-block;*/
+/*    width: 100%;*/
+/*    margin-bottom: 1rem;*/
+/*}*/
+.card {
+    flex: 0 1 calc(25% - 1em);
+    box-sizing: border-box;
+    margin: 1rem .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+
+}
+
+.card-row.card-body {
+    flex-shrink: 1;
+    flex-grow: 2;
+}
+
+.card-row.card-header, .card-row.card-footer {
+    flex-shrink: 2;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section{
+    /*flex-grow: 0;*/
+    /*flex-shrink: 1;*/
+}
+/*.card{*/
+/*    flex: 1 0 calc(25% - 1em);*/
+/*    box-sizing: border-box;*/
+/*    margin: 1rem .25em;*/
+/*}*/
+.row .card-header {
+    margin-left: 0rem;
+}
+
+.card-header {
+    background-color: #f0f3f5;
+    padding: 0.25rem 0;
+    margin-bottom: 0;
+}
+
+.card-footer {
+    background-color: #f0f3f5;
+    padding: 0.25rem;
+    margin-bottom: 0;
+}
+
+.unread {
+    background-color: #17a2b8;
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    /*.card-columns {*/
+    /*    column-count: 2;*/
+    /*}*/
+    .card {
+        flex: 0 1 calc(33% - 1em);
+    }
+
+    /*.card {*/
+    /*    max-width: calc(50% -  1em);*/
+    /*}*/
+}
+
+@media screen and (max-width: 800px) {
+    /*.card-columns {*/
+    /*    column-count: 2;*/
+    /*}*/
+    .card {
+        flex: 0 1 calc(50% - 1em);
+    }
+
+    /*.card {*/
+    /*    max-width: calc(50% -  1em);*/
+    /*}*/
+}
+
+@media screen and (max-width: 600px) {
+    /*.card-columns {*/
+    /*    column-count: 1;*/
+    /*}*/
+    .card-columns {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        /*max-width: none;*/
+    }
+}
