@@ -6,16 +6,7 @@ Register members can create a post to share their information. Members can also 
 Admin of website can manage all information on the system including but not limited to member's post related information, account information, role, category etc.
 
 Currently, the system support on web and android. Some feature has been completed. Many other features are under developing 
-
-## II. Demo
-* Member Site: http://kientran.herokuapp.com
-* Member Login
-    * Email: trungkientran84@gmail.com
-    * Pass: 123456
-* Admin Site: http://kientran.herokuapp.com/admin
-* Admin Login
-    * Email: admin@admin.com
-    * Pass: password    
+    
 
 ## III. Database Design
 ![database_model](https://user-images.githubusercontent.com/29453043/70403006-5b777180-1a03-11ea-9960-b9d01c213e96.png)
